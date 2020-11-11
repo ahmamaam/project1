@@ -1,0 +1,110 @@
+body{
+    box-sizing: border-box;
+    color:deeppink;
+}
+.chearfix{
+    clear: both;
+}
+::selection{
+    background-color: #000;
+    color: #fff;
+}
+.nav{
+    text-align: center;
+    margin-left: 500px;
+}
+
+ul{
+    margin-top: -1px;
+    list-style-type: none;
+}
+ul li{
+    float: left;
+    margin-left: 10px; 
+    cursor: pointer;
+    color: chocolate
+}
+ul li:hover{
+    color: greenyellow;
+    font-size: 22px;
+}
+.first{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.first div{
+    width: 33%;
+    float: left;
+}
+.f{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.f div{
+    width: 33%;
+    float: left;
+}
+.main{
+    margin-top: 50px;
+}
+.formm{
+    width: 500px;
+    height: 250px;
+    margin-top: 40px;
+    border: 1px solid #080;
+    background-color:darkmagenta;
+    margin: auto;
+}
+.formm input,textarea{
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+}
+.formm textarea{
+    margin-left: 10px;
+}
+input[value="login"]{
+    display: block;
+    margin-top: 10px;
+    margin: auto;
+}
+.formm input:hover{
+    background-color: aqua;
+    color: black;
+}
+
+input[value="login"]:hover{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.formm textarea:hover{
+    background-color: aqua;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
